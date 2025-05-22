@@ -79,3 +79,40 @@ def index():
     return "✅ Deployed Flask 3.0 App via AWS ECS + CodePipeline 🚀"
 
 
+
+
+---
+
+
+## 🧪 Testing the App
+After successful deployment, access your application via:
+
+Application Load Balancer (ALB) DNS name
+
+OR ECS Task public IP (if configured)
+
+✅ Deployed Flask 3.0 App via AWS ECS + CodePipeline 🚀
+
+
+## 📈 Optional Enhancements
+Add unit tests to CodeBuild phase
+
+Add CloudWatch Logs for ECS service
+
+Configure Blue/Green Deployment with health checks
+
+Setup GitHub Actions instead of CodeBuild for CI
+
+Add Slack or Email Notification using SNS
+
+
+## 📄 License
+MIT License – free to use and modify.
+
+
+## 👨‍💻 Author
+Harsh Sonkar
+AWS | Python | DevOps | Full Stack | Data Engineer
+
+
+
